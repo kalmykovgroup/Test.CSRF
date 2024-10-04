@@ -1,0 +1,6 @@
+@Test.CSRF_HostAddress = http://localhost:5045
+
+GET {{Test.CSRF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
